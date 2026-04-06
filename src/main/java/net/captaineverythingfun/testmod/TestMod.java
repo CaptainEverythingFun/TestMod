@@ -1,6 +1,8 @@
 package net.captaineverythingfun.testmod;
 
 import com.mojang.logging.LogUtils;
+import net.captaineverythingfun.testmod.block.ModBlocks;
+import net.captaineverythingfun.testmod.item.ModCreativeModeTabs;
 import net.captaineverythingfun.testmod.item.ModItems;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -38,7 +40,10 @@ public class TestMod
     {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -64,6 +69,7 @@ public class TestMod
     {
         if (event.getTabKey()== CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TEST_ITEM);
+            event.accept(ModItems.TEST_ITEM2);
         }
     }
 
