@@ -2,13 +2,11 @@ package net.captaineverythingfun.testmod.block;
 
 import net.captaineverythingfun.testmod.TestMod;
 import net.captaineverythingfun.testmod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.entity.ai.behavior.Behavior;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.SupportType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -27,6 +25,18 @@ public class ModBlocks {
     public static final RegistryObject<Block> TEST_BLOCK2 = registerBlock("test_block2",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK).sound(SoundType.WOOD)));
 
+    public static final RegistryObject<Block> TEST_ORE = registerBlock("test_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
+    public static final RegistryObject<Block> TEST_DEEPSLATE_ORE = registerBlock("test_deepslate_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                    .strength(2.5f).requiresCorrectToolForDrops(), UniformInt.of(4, 7)));
+    public static final RegistryObject<Block> TEST_NETHER_ORE = registerBlock("test_nether_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)
+                    .strength(1.8f).requiresCorrectToolForDrops(), UniformInt.of(3, 5)));
+    public static final RegistryObject<Block> TEST_END_ORE = registerBlock("test_end_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
+                    .strength(1.6f).requiresCorrectToolForDrops(), UniformInt.of(4, 6)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

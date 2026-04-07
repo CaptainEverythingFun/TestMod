@@ -5,5 +5,10 @@
   "block.testmod.test_block": "Test Block",
   "block.testmod.test_block2": "Test Block2",
 
+  "block.testmod.test_ore": "Test Ore",
+  "block.testmod.test_deepslate_ore": "Test Deepslate Ore",
+  "block.testmod.test_nether_ore": "Test Nether Ore",
+  "block.testmod.test_end_ore": "Test End Ore",
+
   "creativetab.test_tab": "Test Mod Tab"
 }

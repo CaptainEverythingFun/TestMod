@@ -27,6 +27,11 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.TEST_BLOCK.get());
                         pOutput.accept(ModBlocks.TEST_BLOCK2.get());
+
+                        pOutput.accept(ModBlocks.TEST_ORE.get());
+                        pOutput.accept(ModBlocks.TEST_DEEPSLATE_ORE.get());
+                        pOutput.accept(ModBlocks.TEST_NETHER_ORE.get());
+                        pOutput.accept(ModBlocks.TEST_END_ORE.get());
                     })
                     .build());
 
