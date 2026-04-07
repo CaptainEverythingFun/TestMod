@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#D#",
+    "#D#",
+    "#D#"
+  ],
+  "key": {
+    "#": {
+      "item": "testmod:test_item"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+
+  "result": {
+    "item": "testmod:test_block"
+    }
+  }
