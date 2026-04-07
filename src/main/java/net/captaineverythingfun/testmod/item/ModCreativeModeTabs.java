@@ -1,6 +1,7 @@
 package net.captaineverythingfun.testmod.item;
 
 import net.captaineverythingfun.testmod.TestMod;
+import net.captaineverythingfun.testmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -23,6 +24,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.TEST_ITEM2.get());
 
                         pOutput.accept(Items.BAKED_POTATO);
+
+                        pOutput.accept(ModBlocks.TEST_BLOCK.get());
+                        pOutput.accept(ModBlocks.TEST_BLOCK2.get());
                     })
                     .build());
 

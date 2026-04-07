@@ -24,13 +24,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
     () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.ANVIL)));
 
+    public static final RegistryObject<Block> TEST_BLOCK2 = registerBlock("test_block2",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK).sound(SoundType.WOOD)));
+
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
         return toReturn;
     }
 
-    private static <T extends Block>RegistryObject<Item>registerBlockItem(String name, RegistryObject<T> block){
+    private static <T extends Block> RegistryObject<Item>registerBlockItem(String name, RegistryObject<T> block){
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
