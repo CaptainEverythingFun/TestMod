@@ -22,8 +22,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.TEST_ITEM.get());
                         pOutput.accept(ModItems.TEST_ITEM2.get());
-
-                        pOutput.accept(Items.BAKED_POTATO);
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
 
                         pOutput.accept(ModBlocks.TEST_BLOCK.get());
                         pOutput.accept(ModBlocks.TEST_BLOCK2.get());
