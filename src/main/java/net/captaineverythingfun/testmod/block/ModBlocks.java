@@ -1,6 +1,7 @@
 package net.captaineverythingfun.testmod.block;
 
 import net.captaineverythingfun.testmod.TestMod;
+import net.captaineverythingfun.testmod.block.custom.SoundBlock;
 import net.captaineverythingfun.testmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.entity.ai.behavior.Behavior;
@@ -24,6 +25,12 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> TEST_BLOCK2 = registerBlock("test_block2",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+
+
 
     public static final RegistryObject<Block> TEST_ORE = registerBlock("test_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)

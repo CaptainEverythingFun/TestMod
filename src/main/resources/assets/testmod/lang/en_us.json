@@ -6,6 +6,7 @@
 
   "block.testmod.test_block": "Test Block",
   "block.testmod.test_block2": "Test Block2",
+  "block.testmod.sound_block": "Sound Block",
 
   "block.testmod.test_ore": "Test Ore",
   "block.testmod.test_deepslate_ore": "Test Deepslate Ore",
