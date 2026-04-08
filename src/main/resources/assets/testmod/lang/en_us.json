@@ -3,6 +3,7 @@
   "item.testmod.test_item2": "Test Item2",
 
   "item.testmod.chocolate": "Chocolate",
+  "item.testmod.pine_cone": "Pine Cone",
   "item.testmod.metal_detector": "Metal Detector",
 
   "block.testmod.test_block": "Test Block",
@@ -13,6 +14,8 @@
   "block.testmod.test_deepslate_ore": "Test Deepslate Ore",
   "block.testmod.test_nether_ore": "Test Nether Ore",
   "block.testmod.test_end_ore": "Test End Ore",
+
+  "tooltip.testmod.metal_detector.tooltip": "Finds Iron and Diamond Underground",
 
   "creativetab.test_tab": "Test Mod Tab"
 }

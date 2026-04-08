@@ -20,11 +20,6 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TEST_ITEM.get()))
                     .title(Component.translatable("creativetab.test_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.TEST_ITEM.get());
-                        pOutput.accept(ModItems.TEST_ITEM2.get());
-                        pOutput.accept(ModItems.CHOCOLATE.get());
-                        pOutput.accept(ModItems.METAL_DETECTOR.get());
-
                         pOutput.accept(ModBlocks.TEST_BLOCK.get());
                         pOutput.accept(ModBlocks.TEST_BLOCK2.get());
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
@@ -33,6 +28,15 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.TEST_DEEPSLATE_ORE.get());
                         pOutput.accept(ModBlocks.TEST_NETHER_ORE.get());
                         pOutput.accept(ModBlocks.TEST_END_ORE.get());
+
+                        pOutput.accept(ModItems.TEST_ITEM.get());
+                        pOutput.accept(ModItems.TEST_ITEM2.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.CHOCOLATE.get());
+                        pOutput.accept(ModItems.PINE_CONE.get());
+
+
+
                     })
                     .build());
 
