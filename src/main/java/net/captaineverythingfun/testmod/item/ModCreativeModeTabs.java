@@ -35,6 +35,18 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.CHOCOLATE.get());
                         pOutput.accept(ModItems.PINE_CONE.get());
 
+                        pOutput.accept(ModBlocks.TEST_STAIRS.get());
+                        pOutput.accept(ModBlocks.TEST_SLAB.get());
+                        pOutput.accept(ModBlocks.TEST_BUTTON.get());
+                        pOutput.accept(ModBlocks.TEST_PRESSURE_PLATE.get());
+
+                        pOutput.accept(ModBlocks.TEST_FENCE.get());
+                        pOutput.accept(ModBlocks.TEST_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.TEST_WALL.get());
+
+                        pOutput.accept(ModBlocks.TEST_DOOR.get());
+                        pOutput.accept(ModBlocks.TEST_TRAPDOOR.get());
+
 
 
                     })

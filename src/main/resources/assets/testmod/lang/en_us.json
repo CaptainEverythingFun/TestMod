@@ -10,6 +10,16 @@
   "block.testmod.test_block2": "Test Block2",
   "block.testmod.sound_block": "Sound Block",
 
+  "block.testmod.test_stairs": "Test Stairs",
+  "block.testmod.test_slab": "Test Slab",
+  "block.testmod.test_button": "Test Button",
+  "block.testmod.test_pressure_plate": "Test Pressure Plate",
+  "block.testmod.test_fence": "Test Fence",
+  "block.testmod.test_fence_gate": "Test Fence Gate",
+  "block.testmod.test_wall": "Test Wall",
+  "block.testmod.sapphire_door": "Test Door",
+  "block.testmod.test_trapdoor": "Test Trapdoor",
+
   "block.testmod.test_ore": "Test Ore",
   "block.testmod.test_deepslate_ore": "Test Deepslate Ore",
   "block.testmod.test_nether_ore": "Test Nether Ore",
