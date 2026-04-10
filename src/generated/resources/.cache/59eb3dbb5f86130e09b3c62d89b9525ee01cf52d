@@ -1,0 +1,17 @@
+// 1.20.1	2026-04-09T11:25:19.2053937	Loot Tables
+4177cf55bf68a592a87d1a9640e937083ae73fbf data/testmod/loot_tables/blocks/sapphire_door.json
+26c8e5f0e5177a0abdcb57c0889b568c1c6fb50f data/testmod/loot_tables/blocks/sound_block.json
+d96fb4d1e134eee2c25626d012ce3af35a701585 data/testmod/loot_tables/blocks/test_block.json
+81eb88417f684f9291ddef31016536a7cbf15cb7 data/testmod/loot_tables/blocks/test_block2.json
+cc7fc29d2229a462816d1c79e1a6446497d291ba data/testmod/loot_tables/blocks/test_button.json
+a2407779007bb6ef07c2f225f4631e9c712421ec data/testmod/loot_tables/blocks/test_deepslate_ore.json
+ed5f4331a656c108fb6638e60dff4611320b1c8f data/testmod/loot_tables/blocks/test_end_ore.json
+4f4f4415ae8bfec3cd459def7bfe6123e81f265b data/testmod/loot_tables/blocks/test_fence.json
+b5bf7868631faf8d749af8aef10a3c62aa95b18c data/testmod/loot_tables/blocks/test_fence_gate.json
+f1651e194aa80d3cbf40329bf04c18393d530e3c data/testmod/loot_tables/blocks/test_nether_ore.json
+a7f5b059a81e4598ae2792b977c477cc90ac491a data/testmod/loot_tables/blocks/test_ore.json
+d5fae3f039d4f156c8c243da757ff9f7d8db1817 data/testmod/loot_tables/blocks/test_pressure_plate.json
+1709ed4662bf43e6650275b126f54613eafb171e data/testmod/loot_tables/blocks/test_slab.json
+face38c9e493af3b663d5a43079067fa3b113ad8 data/testmod/loot_tables/blocks/test_stairs.json
+4e30aeabd51d3be92fb14d918b4b2a53d4cad973 data/testmod/loot_tables/blocks/test_trapdoor.json
+866103fe1f0aac9aadb744c0ec2a37e3f076eb01 data/testmod/loot_tables/blocks/test_wall.json

@@ -1,0 +1,10 @@
+// 1.20.1	2026-04-09T11:25:19.2018599	Tags for minecraft:block mod id testmod
+818fd64d00ce03cb9238f9023a74c37c2325bd16 data/forge/tags/blocks/needs_netherite_tool.json
+90381b5979bda41f041461e04153aae110989e65 data/minecraft/tags/blocks/fences.json
+52396e0c95228331d8a18d734fd9b6d509a656d1 data/minecraft/tags/blocks/fence_gates.json
+8470e1982b2d94373a4afe0472258392e2add05a data/minecraft/tags/blocks/mineable/pickaxe.json
+b28bb7cda9c17776a514f3f6d29cc572b10aefd2 data/minecraft/tags/blocks/needs_diamond_tool.json
+17db1c720438056bad705ebf15aa10f6e987247e data/minecraft/tags/blocks/needs_iron_tool.json
+db6dd2f8185d1698b3e3f5a181fb2103651af69b data/minecraft/tags/blocks/needs_stone_tool.json
+7a70c37b0aa7de04d0d7623793c752a2ed1b3de1 data/minecraft/tags/blocks/walls.json
+d2a07836416132637d94e83f17aa225ad473d1d1 data/testmod/tags/blocks/metal_detector_valuables.json
